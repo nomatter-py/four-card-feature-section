@@ -10,7 +10,7 @@ body{
 
 header{
     text-align: center;
-    width:30rem;
+    width: 30rem;
     margin: 3rem auto;
 
     .bold-header{
@@ -21,6 +21,11 @@ header{
         margin: auto;
         width: 90%;
     }
+
+     @media only screen and (max-width: $lg) {
+        width:80%;
+    }
+
 }
 
 h1{
