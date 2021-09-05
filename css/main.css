@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  background-color: #fafafa;
+  color: #4c4e61;
+}
+
+header {
+  text-align: center;
+  width: 30rem;
+  margin: 3rem auto;
+}
+
+header .bold-header {
+  font-weight: 600;
+}
+
+header p {
+  margin: auto;
+  width: 90%;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0 0 1rem 0;
+}
+
+.cards-container {
+  display: -ms-grid;
+  display: grid;
+  width: 80%;
+  margin: auto;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 992px) {
+  .cards-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    -webkit-transform: unset;
+            transform: unset;
+    margin: 2rem auto;
+  }
+}
+
+.cards-container__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0rem;
+}
+
+.cards-container__column__card {
+  margin: 1rem;
+  padding: 2rem 2rem 7rem;
+  -ms-flex-preferred-size: 12rem;
+      flex-basis: 12rem;
+  border: 1px solid lightgray;
+  row-gap: 1rem;
+  -webkit-box-shadow: 1px 1px 15px lightblue, -1px -1px 15px lightblue;
+          box-shadow: 1px 1px 15px lightblue, -1px -1px 15px lightblue;
+  position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+  .cards-container__column__card {
+    padding-bottom: 10rem;
+  }
+}
+
+.cards-container__column__card p {
+  font-size: smaller;
+}
+
+.cards-container__column__card.cyan {
+  border-top: 0.3rem solid #45d3d3;
+  border-radius: 0.4rem;
+}
+
+.cards-container__column__card.red {
+  border-top: 0.3rem solid #ea5353;
+  border-radius: 0.4rem;
+}
+
+.cards-container__column__card.orange {
+  border-top: 0.3rem solid #fcaf4a;
+  border-radius: 0.4rem;
+}
+
+.cards-container__column__card.blue {
+  border-top: 0.3rem solid #549ef2;
+  border-radius: 0.4rem;
+}
+
+.cards-container__column__card img {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */
