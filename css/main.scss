@@ -58,7 +58,7 @@ h1{
             flex-basis: 12rem;
             border:1px solid lightgray;
             row-gap: 1rem;
-            box-shadow: 1px 1px 15px lightblue, -1px -1px 15px lightblue;
+            box-shadow: 1px 1px 3px rgb(154, 172, 179), -1px -1px 3px rgb(154, 172, 179);
             position: relative;
 
             @media only screen and (max-width: $lg) {

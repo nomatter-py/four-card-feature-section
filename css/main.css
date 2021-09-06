@@ -81,8 +81,8 @@ h1 {
       flex-basis: 12rem;
   border: 1px solid lightgray;
   row-gap: 1rem;
-  -webkit-box-shadow: 1px 1px 15px lightblue, -1px -1px 15px lightblue;
-          box-shadow: 1px 1px 15px lightblue, -1px -1px 15px lightblue;
+  -webkit-box-shadow: 1px 1px 3px #9aacb3, -1px -1px 3px #9aacb3;
+          box-shadow: 1px 1px 3px #9aacb3, -1px -1px 3px #9aacb3;
   position: relative;
 }
 
